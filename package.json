@@ -1,0 +1,22 @@
+{
+  "name": "streamer-bot",
+  "version": "1.0.0",
+  "description": "Discord Streaming Badge hours farm bot with Go Live spoof + alt watcher",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "ws": "^8.18.0"
+  },
+  "keywords": ["discord", "streamer", "go-live", "badge"],
+  "author": "Streamer",
+  "license": "UNLICENSED"
+}
